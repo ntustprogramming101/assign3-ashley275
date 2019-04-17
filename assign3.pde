@@ -19,11 +19,11 @@ void draw() {
 
 
       // Ground
-      
-        for( int y=0; y<8; y++ ){
-          /// --Soil
-          image( soil[2], 80*y, 0 ); 
+      int y=0;
+      while (y<8){
 
+          image( soil[2], 80*y, 0 ); 
+       y++;
           
       } } 
 
