@@ -21,8 +21,9 @@ void draw() {
       // Ground
       for( int y=0; y<8; y++ ){
           /// --Soil
-
-          image( soil[3], 80*y, 0 );
+          int type = y;
+          PImage img = soil[type];
+          image( img, 80*y, 0 );
 
           
       } } 
