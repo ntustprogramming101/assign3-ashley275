@@ -20,11 +20,9 @@ void draw() {
 
       // Ground
       
-        for( int y=0; y<24; y++ ){
+        for( int y=0; y<8; y++ ){
           /// --Soil
-          int type = y/4;
-          PImage img = soil[type];
-          image( img, 0, 80*y+160 ); 
+          image( soil[2], 80*y, 0 ); 
 
           
       } } 
